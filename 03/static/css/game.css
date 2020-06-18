@@ -1,0 +1,130 @@
+.banner{
+    width:100%;
+    margin-top: 4.1667rem;
+    position: relative;
+}
+.banner img{
+    width:100%
+}
+.game{
+    width:100%;
+    height:41.6667rem;
+    background-color:#fff;
+    background:url('../images/lieren.png') no-repeat 10.6667rem 3.3333rem;
+
+}
+.game h2{
+    margin:2.9167rem 0 1.25rem 0;
+    text-align: right
+}
+.game .text{
+    width:53.3333rem;
+    height:6.75rem;
+    float:right
+}
+.game p{
+    text-align: right;
+    color:#c2c2c2;
+    font-size:1rem;
+    line-height:2.5rem
+}
+.game .img1{
+    margin:2.5rem 2.3333rem 2.3333rem 0
+}
+.game .img2{
+    margin-left:2.25rem
+}
+.gametwo{
+    width:100%;
+    height:44.1667rem;
+    background-color:#fff;
+    background:url('../images/game-girl.png') no-repeat 70.3333rem 6.6667rem;
+    margin-top:4.1667rem
+}
+.gametwo .text-two{
+    width:53rem;
+    height:10.25rem;
+    float:left;
+    margin:4.1667rem 0 0 4.4167rem
+}
+.gametwo p{
+    text-align: left;
+    color:#c2c2c2;
+    font-size:1rem;
+    line-height:2.5rem;
+    margin-top:1.5833rem
+}
+.gametwo .img3{
+    margin:2.5rem 1.6667rem 2.3333rem 0
+}
+.gametwo .img4{
+    margin-left:1.6667rem
+}
+.more{
+    width:100%
+}
+.more h2{
+    margin:6.3333rem 0 0 4.4167rem
+}
+.more ul{
+    width:100%;
+    margin:4.4167rem
+}
+.more ul li{
+    float:left;
+    margin:0 auto
+}
+.more ul li:nth-child(2){
+    margin-left:2.5rem
+}
+.more ul li:nth-child(3){
+    margin-left:2.5rem
+}
+.more ul li p{
+    font-size:1.1667rem;
+    color:#555555;
+    text-align: center;
+    margin:0.9167rem 0 3.5833rem 0 
+}
+
+footer{
+	width:100%;
+	background:#3b3b3b;
+	padding:2.83rem 0 2rem;
+}
+footer .left{
+	padding-left:8.67rem;
+}
+footer .left ul li{
+	float:left;
+	margin-right:1.17rem;
+}
+footer .left ul li a{
+	font-size:1.17rem;
+	color:#a1a3ab;
+}
+footer .left p{
+	font-size:1rem;
+	color:#a1a3ab;
+	line-height:3.5rem;
+}
+footer .right ul li{
+	position:relative;
+	float:left;
+	margin-left:1.66rem;
+}
+footer .right ul li:first-child{
+	margin-left:0;
+}
+footer .right ul li .son{
+	position: absolute;
+	width:11.83rem;
+	height:12.5rem;
+	background:url('../images/footer_bg.png') no-repeat;
+	background-size:100%;
+	top:-12.75rem;
+	left:50%;
+	transform: translateX(-50%);
+	text-align: center;
+	padding-top:0.67rem;
+}

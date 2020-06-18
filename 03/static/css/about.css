@@ -1,0 +1,210 @@
+.banner{
+    width:100%
+}
+.banner img{
+    width:100%
+}
+.company{
+    width:100%;
+    background: url('../images/company-layabox.png') no-repeat 65.8333rem 23.3333rem ;
+}
+
+.company .introduction {
+    font-size:3rem;
+    color:#2a2a2a;
+    margin-top: 7.8333rem;
+    margin-left: 3.5rem;
+
+}
+.company .introduction-two{
+    font-size:1.75rem;
+    color:#2a2a2a;
+    margin-top:3.0833rem;
+    margin-left: 3.5rem;
+    padding:0 4.3333rem 0 0
+}
+.company .introduction-three{
+    font-size:1.1667rem;
+    color:#2a2a2a;
+    line-height:2.5833rem;
+    margin-top: 2rem;
+    margin-left: 3.5rem;
+    text-indent: 1.5rem;
+    padding:0 6.6667rem 0 0
+}
+.company .introduction-four{
+    font-size:1.1667rem;
+    color:#2a2a2a;
+    line-height:2.5833rem;
+    margin-top:1.5rem;
+    margin-left: 3.5rem;
+    margin-bottom:5.8333rem;
+    text-indent: 1.5rem;
+    padding:0 6.1rem 0 0
+}
+.hr{
+    width:100%;
+    background-color:#8cc11f
+}
+.hr .h-one{
+    font-size:3rem;
+    color:#fff;
+    margin:9.5rem 0 0 3.5rem
+}
+.hr .h-two{
+    font-size:1.3333rem;
+    color:#fff;
+    margin:4.4167rem 0 0 3.5rem;
+    line-height:2.5rem
+}
+.hr .h-three{
+    font-size:1.3333rem;
+    color:#fff;
+    margin:1.5rem 0 0 3.5rem
+}
+.hr .h-four{
+    font-size:1.3333rem;
+    color:#fff;
+    margin-top:18.5833rem
+}
+.hr button{
+    width:18.3333rem;
+    height:4.1667rem;
+    color:#8cc11f;
+    background-color:#fff;
+    font-size:2rem;
+    border-radius: 0.4167rem
+}
+.hr .h-five{
+    font-size:1.3333rem;
+    color:#fff;
+    margin:1.3333rem 0 6.9167rem 0
+}
+
+.job .as3{
+    color:#8cc11f;
+    font-size:2.1667rem;
+    margin:10.1667rem 0 3.4167rem 3.5rem
+}
+.job .description{
+    font-size:1.5rem;
+    color:#2a2a2a;
+    margin-left:3.5rem;
+    margin-top:1.3333rem
+}
+.job .require{
+    font-size:1.1667rem;
+    color:#2a2a2a;
+    margin-left:3.5rem;
+    line-height:2.5rem;
+    text-indent: 1.9167rem;
+}
+.job .requiretwo{
+    font-size:1.1667rem;
+    color:#2a2a2a;
+    margin-left:3.5rem;
+    line-height:2.5rem;
+    text-indent: 1.9167rem;
+    margin-bottom:9.75rem
+}
+.bottom-line{
+    width:91.6667rem;
+    border-top:1px solid #d2d2d2;
+    margin:66px auto 0 auto;
+
+}
+.contact{
+    background-color:#f4f4f4;
+    width:100%;
+}
+.contact .top{
+    color:#2a2a2a;
+    font-size:3rem;
+    margin:3.6667rem 0 39.9996px 3.5rem
+}
+.contact .contact-box{
+    width:39rem;
+    height:8.5833rem;
+    background:url('../images/contact-position.png')no-repeat 2rem 0.9167rem;
+    background-color:#fff;
+    border:1px solid #e3e3e3;
+    border-radius:3px;
+    margin-left:3.5rem;
+    margin-bottom:1.5rem
+}
+.contact .text{
+    font-size:1.3333rem;
+    color:#2a2a2a;
+    line-height:7.3333rem;
+    text-indent: 8.6667rem
+}
+.contact .contact-box-two{
+    width:39rem;
+    height:8.5833rem;
+    background:url('../images/contact-wechat.png')no-repeat 2rem 0.9167rem;
+    background-color:#fff;
+    border:1px solid #e3e3e3;
+    border-radius:3px;
+    margin-left:3.5rem
+}
+
+.contact .contact-box-three{
+    width:39rem;
+    height:8.5833rem;
+    background:url('../images/contact-email.png')no-repeat 2rem 0.9167rem;
+    background-color:#fff;
+    border:1px solid #e3e3e3;
+    border-radius:3px;
+    margin-bottom:1.5rem
+}
+
+.contact .contact-box-four{
+    width:39rem;
+    height:8.5833rem;
+    background:url('../images/contact-phone.png')no-repeat 2rem 0.9167rem;
+    background-color:#fff;
+    border:1px solid #e3e3e3;
+    border-radius:3px;
+    margin-bottom:5.3333rem
+}
+footer{
+	width:100%;
+	background:#3b3b3b;
+	padding:2.83rem 0 2rem;
+}
+footer .left{
+	padding-left:8.67rem;
+}
+footer .left ul li{
+	float:left;
+	margin-right:1.17rem;
+}
+footer .left ul li a{
+	font-size:1.17rem;
+	color:#a1a3ab;
+}
+footer .left p{
+	font-size:1rem;
+	color:#a1a3ab;
+	line-height:3.5rem;
+}
+footer .right ul li{
+	position:relative;
+	float:left;
+	margin-left:1.66rem;
+}
+footer .right ul li:first-child{
+	margin-left:0;
+}
+footer .right ul li .son{
+	position: absolute;
+	width:11.83rem;
+	height:12.5rem;
+	background:url('../images/footer_bg.png') no-repeat;
+	background-size:100%;
+	top:-12.75rem;
+	left:50%;
+	transform: translateX(-50%);
+	text-align: center;
+	padding-top:0.67rem;
+}

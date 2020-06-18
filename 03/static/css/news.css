@@ -1,0 +1,128 @@
+.news{
+    width:100%;
+    margin-top:4.1667px;
+}
+.news h2{
+    color:#ff986a;
+    margin:6.4167rem 0 3.3333rem 2.9167rem
+}
+.img{
+    float:left;
+    margin-left:2.9167rem;
+    margin-right:2.3333rem
+}
+.news .img1{
+    margin-left:2.9167rem
+}
+.news .img2{
+    margin-left:2.75rem
+}
+.news .img3{
+    margin-left:2.75rem
+}
+.news-two{
+    margin-top:7.5rem
+}
+
+.news-two h4{
+    font-size:1.5rem;
+    color:#666666;
+
+}
+.news-two h4 span{
+    font-size:1.5rem;
+    color:#ff6900;
+
+}
+.news-two p span{
+    font-size:1.1667rem;
+    color:#555555;
+    line-height: 2.5rem
+}
+.news-two p{
+
+    line-height:1.6667rem
+}
+.button1{
+    width:8.3333rem;
+    height:2.75rem;
+    text-align: center;
+    line-height:1rem;
+    border:1px solid #ff6900;
+    color:#ff6900;
+    background-color:#fff;
+    float:right;
+    border-radius: 2px;
+    margin:0.8333rem 1.0833rem 3.5rem 0
+}
+.button2{
+    width:8.3333rem;
+    height:2.75rem;
+    text-align: center;
+    line-height:1rem;
+    color:#fff;
+    background-color:#ff6900;
+    float:right;
+    border-radius: 1.6667rem;
+    margin:0.8333rem 1.0833rem 3.5rem 0
+}
+.page table {
+    font-size:1rem;
+    color:#555;
+    margin:0 auto;
+  
+}
+.page .table-one{
+    border-top:1px dashed #d4d4d4;
+    padding:2.9167rem 0 2.0833rem 0
+}
+.page .page-one{
+    background-color:#e34637;
+    color:#fff
+}
+.page .table-one tr{
+    border:1px solid #dddddd;
+    
+}
+
+footer{
+	width:100%;
+	background:#3b3b3b;
+	padding:2.83rem 0 2rem;
+}
+footer .left{
+	padding-left:8.67rem;
+}
+footer .left ul li{
+	float:left;
+	margin-right:1.17rem;
+}
+footer .left ul li a{
+	font-size:1.17rem;
+	color:#a1a3ab;
+}
+footer .left p{
+	font-size:1rem;
+	color:#a1a3ab;
+	line-height:3.5rem;
+}
+footer .right ul li{
+	position:relative;
+	float:left;
+	margin-left:1.66rem;
+}
+footer .right ul li:first-child{
+	margin-left:0;
+}
+footer .right ul li .son{
+	position: absolute;
+	width:11.83rem;
+	height:12.5rem;
+	background:url('../images/footer_bg.png') no-repeat;
+	background-size:100%;
+	top:-12.75rem;
+	left:50%;
+	transform: translateX(-50%);
+	text-align: center;
+	padding-top:0.67rem;
+}
