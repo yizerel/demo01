@@ -1,0 +1,64 @@
+<meta charset="utf-8">
+<link rel="stylesheet" href="static/css/news.css" />
+<div ng-controller="news">
+	<section class="body">
+				<div class="bg">
+					<!-- <img src="static/images/LC_slices/资源%2043@4x.png" /> -->
+					<div class="list_big">
+					<div class="list_box">
+						<ul class="ul">
+							<li ng-repeat="v in news[1]"  ng-click="news_id(v.n_id)">
+								<h2>{{v.n_title}}</h2>
+								<span class="xian"></span>
+								<p>{{v.n_date*1000|date:'yyyy.MM'}}</p>
+							</li>
+						</ul>
+						<ul class="ul">
+							<li ng-repeat="v in news[2]" ng-click="news_id(v.n_id)">
+								<h2>{{v.n_title}}</h2>
+								<span class="xian"></span>
+								<p>{{v.n_date*1000|date:'yyyy.MM'}}</p>
+							</li>
+						</ul>
+						<ul class="ul">
+							<li ng-repeat="v in news[3]" ng-click="news_id(v.n_id)">
+								<h2>{{v.n_title}}</h2>
+								<span class="xian"></span>
+								<p>{{v.n_date*1000|date:'yyyy.MM'}}</p>
+							</li>
+						</ul>
+						<ul class="ul">
+							<li ng-repeat="v in news[4]" ng-click="news_id(v.n_id)">
+								<h2>{{v.n_title}}</h2>
+								<span class="xian"></span>
+								<p>{{v.n_date*1000|date:'yyyy.MM'}}</p>
+							</li>
+						</ul>
+						<ul class="ul">
+							<li ng-repeat="v in news[5]" ng-click="news_id(v.n_id)">
+								<h2>{{v.n_title}}</h2>
+								<span class="xian"></span>
+								<p>{{v.n_date*1000|date:'yyyy.MM'}}</p>
+							</li>
+						</ul>
+						<ul class="ul">
+							<li ng-repeat="v in news[6]" ng-click="news_id(v.n_id)">
+								<h2>{{v.n_title}}</h2>
+								<span class="xian"></span>
+								<p>{{v.n_date*1000|date:'yyyy.MM'}}</p>
+							</li>
+						</ul>
+					</div>
+					</div>
+					<ul class="list">
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</section>
+			<script type="text/javascript" src="static/js/LC_slices.js"></script>
+</div>

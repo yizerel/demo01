@@ -1,0 +1,316 @@
+.advertising{
+    /* width: 67.37rem; */
+	width: 100%;
+    /* height: 37.5rem; */
+    position: relative;
+}
+.advertising img{
+    width: 100%;
+    height: 100%;
+}
+.advertising ul{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+	transform: translate(-50%,-50%);
+}
+.advertising ul li:nth-child(1){
+    font-size:1.33rem;
+    font-weight:500;
+    line-height:2.7rem;
+    color:#333333;
+}
+.advertising-text{
+    font-size:0.8rem;
+    font-weight:400;
+    line-height:1.35rem;
+    color:#333333;
+}
+.advertising-hr{
+    width:8.7rem;
+    height:1px;
+    background:#333333;
+}
+.blank{
+    margin-top: 1rem;
+}
+.module-2{
+    position: relative;
+}
+.module-2 ul{
+   margin-left: 10.5rem;
+   
+}
+.module-2 ul li:nth-child(1),.module-2 ul li:nth-child(4),.module-2 ul li:nth-child(7){
+    font-size:1.66rem;
+    line-height:2.83rem;
+    color:#606060;
+    margin-top: 3.33rem;
+}
+.module-2 ul li:nth-child(2),.module-2 ul li:nth-child(5),.module-2 ul li:nth-child(8){
+    font-size:0.83rem;
+    line-height:1.41rem;
+    color:#333333;
+}
+.module-2 ul li:nth-child(3),.module-2 ul li:nth-child(6){
+    width:21.5rem;
+    font-size:0.83rem;
+    line-height:1.41rem;
+    color:#606060;
+}
+.module-2 ul li:nth-child(9){
+    width: 50rem;
+    font-size:0.83rem;
+    line-height:1.41rem;
+    color:#606060;
+}
+.module-2-img{
+    width: 23.7rem;
+    height: 30.29rem;
+    position: absolute;
+    top: -1rem;
+    left: 36.25rem;
+    
+}
+.module-2-img img{
+    width: 100%;
+    height: 100%;
+}
+.module-3{
+    width: 100%;
+    height: 37.5rem;
+    position: relative;
+    margin-top: 3.33rem;
+}
+.module-3 img{
+    width: 100%;
+    height: 100%;
+}
+.module-3 ul{
+    position: absolute;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.module-3 ul li:nth-child(1){
+    font-size:2rem;
+    font-weight:bold;
+    line-height:3.4rem;
+    color:#ffffff;
+}
+.module-3 ul li:nth-child(3){
+    margin-top: 2.33rem;
+}
+.module-3 ul li:nth-child(3),.module-3 ul li:nth-child(4){
+    font-size:1.07rem;
+    font-weight:300;
+    line-height:1.8rem;
+    color:#ffffff;
+}
+.module-3 ul li:nth-child(2){
+    margin-left: 4rem;
+    width:4rem;
+    height:1px;
+    background:#FFFFFF;
+    margin-top: 1.63rem;
+}
+.module-4-left{
+    width: 32.97rem;
+    float: left;
+}
+.module-4-right{
+    /* width: 31.03rem; */
+	    width: 28.03rem;
+    float: right;
+}
+.module-4-left-img{
+    width: 20.43rem;
+    height: 9.6rem;
+    margin-top: 6.5rem;
+    margin-left: 6.5rem;
+}
+.module-4-left-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+.module-4-left-ul1 ul li:nth-child(1){
+    width:9.8rem;
+    height:1.07rem;
+    font-size:1.07rem;
+    font-weight:500;
+    line-height:1.8rem;
+    color:#333333;
+    margin-top: 5.63rem;
+    margin-left: 10.9rem;
+}
+.module-4-left-ul1 ul li:nth-child(2){
+    width:9.6rem;
+    height:2.33rem;
+    font-size:0.53rem;
+    font-weight:400;
+    line-height:0.9rem;
+    color:#333333;
+    margin-top: 0.77rem;
+    margin-left: 10.9rem;
+}
+.module-4-left-ul2 ul li:nth-child(1){
+    width:9.6rem;
+    font-size:1.07rem;
+    font-weight:500;
+    line-height:1.8rem;
+    color:#333333;
+    margin-top: 4.67rem;
+    margin-left: 10.9rem;
+}
+.module-4-left-ul2 ul li:nth-child(2){
+    width:9.6rem;
+    height:2.33rem;
+    font-size:0.53rem;
+    font-weight:400;
+    line-height:0.9rem;
+    color:#333333;
+    margin-top: 0.77rem;
+    margin-left: 10.9rem;
+}
+.module-4-right-img{
+    width: 25.2rem;
+    height: 37.73rem;
+    margin-top: 2.2rem;
+}
+.module-4-right-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+.module-5-left-img{
+    width: 40rem;
+    height: 36.2rem;
+    margin-top: 4.33rem;
+    margin-left: 3.2rem;
+}
+.module-5-left-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+.module-5-right-ul1 li:nth-child(1){
+    width:10.77rem;
+    font-size:1.07rem;
+    font-weight:500;
+    line-height:1.33rem;
+    color:#333333;
+    margin-top: 13.77rem;
+    margin-right: 6.67rem;
+}
+.module-5-right-ul1 li:nth-child(2),.module-5-right-ul2 li:nth-child(2){
+    width:10.53rem;
+    font-size:0.53rem;
+    line-height:0.9rem;
+    margin-top: 0.77rem;
+    color:#333333;
+}
+.module-5-right-ul2 li:nth-child(1){
+    width:7.57rem;
+    font-size:1.07rem;
+    font-weight:500;
+    line-height:1.33rem;
+    margin-top: 4.67rem;
+    color:#333333;
+}
+.module-6-right-img{
+    width: 40rem;
+    height: 32.3rem;
+    margin-top: 4.3rem;
+    margin-right: 3.13rem;
+}
+.module-6-right-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+.module-6-left-ul1 li:nth-child(1){
+    width:10.77rem;
+    font-size:1.07rem;
+    font-weight:500;
+    line-height:1.33rem;
+    color:#333333;
+    margin-top: 13.97rem;
+    margin-left: 6.93rem;
+}
+.module-6-left-ul1 li:nth-child(2),.module-6-left-ul2 li:nth-child(2){
+    width:10.53rem;
+    font-size:0.53rem;
+    line-height:0.9rem;
+    color:#333333;
+    margin-top: 0.77rem;
+    margin-left: 6.93rem;
+}
+.module-6-left-ul2 li:nth-child(1){
+    width:7.57rem;
+    font-size:1.07rem;
+    font-weight:500;
+    line-height:1.33rem;
+    margin-left: 6.93rem;
+    margin-top: 4.67rem;
+    color:#333333;
+}
+.module-7-ul{
+    margin-top: 4.4rem;
+    margin-left: 14.63rem;
+}
+.module-7-ul li:nth-child(1){
+    font-size:1.07rem;
+    font-weight:500;
+    line-height:1.33rem;
+    color:#333333;
+}
+.module-7-ul li:nth-child(2){
+    font-size:0.53rem;
+    line-height:0.9rem;
+    color:#333333;
+    margin-top: 0.77rem;
+}
+.module-7-img{
+    width: 52rem;
+    height: 25.03rem;
+    margin-top: 3.33rem;
+    margin-left: 3.2rem;
+}
+.module-7-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+.module-8-top{
+    width: 21.6rem;
+    text-align: center;
+	margin: 4.67rem auto 0;
+}
+.module-8-top-ul li:nth-child(1){
+    font-size:2rem;
+    font-weight:bold;
+    line-height:3.4rem;
+    color:#333333;
+}   
+.module-8-top-ul li:nth-child(2){
+    font-size:1.07rem;
+    line-height:1.33rem;
+    color:#333333;
+    margin-top: 1.33rem;
+}   
+.module-8-bottom{
+    height: 30.8rem;
+    margin-top: 2.53rem;
+    /* margin-left: 0.6rem; */
+    margin-bottom: 4.67rem;
+}
+#XSDFXPage{
+	margin: 0 auto;
+}
+.XSDFXPage {
+    width: 46.61rem;
+    height: 30rem;
+    margin-left: 8.1rem;
+    margin-top: 0.8rem;
+}

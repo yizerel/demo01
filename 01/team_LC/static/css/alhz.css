@@ -1,0 +1,141 @@
+.content{
+    width: 100%;
+    height: 43rem;
+}
+.ctop{
+    width: 100%;
+    height: 27rem;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.ctop h1{
+    font-size:2rem;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    line-height: 7.2rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+}
+.ctop ul{
+    width: 90%;
+    margin: 0.4rem auto 0;
+}
+.ctop ul li{
+    float: left;
+    height: 19.39rem;
+    margin:0 2%;
+    background-color: #b2856d;
+    text-align: center;
+	width:30.5%;
+	cursor: pointer;
+}
+.ctop ul li:first-of-type{
+	margin-left:0
+}
+.ctop ul li:last-of-type{
+	margin-right:0
+}
+.ctop ul li img{
+    width: 100%;/*20.83rem*/
+    height: 15.625rem;
+}
+.ctop ul li .p1{
+    height:1rem;
+    font-size:1rem;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    line-height:1.7rem;
+    color:rgba(255,255,255,1);
+    opacity:1;
+    padding-bottom: 0.33rem;
+}
+.ctop ul li .p2{
+    height:0.83rem;
+    font-size:0.83rem;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    line-height:1.41rem;
+    color:rgba(255,255,255,1);
+    opacity:1;
+}
+
+
+
+
+.cbottom{
+    width: 100%;
+    height: 16rem;
+    opacity:1;
+}
+.cbottom .cbleft{
+    width: 37%;
+    height: 100%;
+    float: left;
+}
+.cbleft button{
+    width:9.375rem;
+    height:2.5rem;
+    background:rgba(178,133,109,1);
+    opacity:1;
+    border-radius:1.666rem;
+    text-align: center;
+    margin-left: 8.54rem;
+}
+.cbleft button p{
+    font-size:1rem;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    line-height:1.7rem;
+    color:rgba(255,255,255,1);
+    opacity:1;
+}
+.cbleft .one{
+    margin-top: 4.54rem;
+}
+.cbleft .two{
+    background:rgba(170,170,170,1);
+    margin-top: 1.58rem;
+}
+.cbottom .cbright{
+	width:63%;
+    height: 100%;
+    float: left;
+}
+.cbright p{
+    font-size:1rem;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    line-height:1.8rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+	text-align: center;
+}
+.cbright .a{
+    float: left;
+    margin-top: 2.5rem;
+    text-align: center;
+    margin-right: 6.3rem;
+}
+.cbright .a img{
+    height: 8.5rem;
+    margin-bottom: 0.96rem;
+}
+.cbright .b{
+    float: left;
+    margin-top: 2.5rem;
+    text-align: center;
+    margin-right: 6.29rem;
+}
+.cbright .b img{
+    height: 9.34rem;
+    margin-bottom: 0.1rem;
+}
+.cbright .c{
+    float: left;
+    margin-top: 2.5rem;
+    text-align: center;
+}
+.cbright .c img{
+    height: 8.74rem;
+    margin-bottom: 0.65rem;
+}

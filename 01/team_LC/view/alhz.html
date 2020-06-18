@@ -1,0 +1,48 @@
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="static/css/alhz.css"/>
+<div ng-controller="alhz">
+	<div class="content">
+				<div class="ctop">
+					<h1>案例汇总</h1>
+					<ul>
+						<li ng-click="peitao_fun(v.p_id)" ng-repeat="v in peitao">
+							<img ng-src="static/images/{{v.p_photo}}"/>
+							<p class="p1">{{v.p_name}}</p>
+							<p class="p2">{{v.p_intro}}</p>
+						</li>
+						<!-- <li >
+							<img src="static/images/226@2x.png"/>
+							<p class="p1" >清迈合院</p>
+							<p class="p2">花园别墅</p>
+						</li>
+						<li >
+							<img src="static/images/239@2x.png"/>
+							<p class="p1" >梅花鹿度假酒店</p>
+							<p class="p2">度假酒店</p>
+						</li> -->
+						<div class="clear"></div>
+					</ul> 
+				</div>
+				<div class="cbottom">
+					<div class="cbleft">
+						<button class="one"><p>更多户型</p></button>
+						<button class="two"><p>配套信息</p></button>
+					</div>
+					<div class="cbright">
+						<div class="{{$index==0?'a':'b';}}" ng-repeat="v in hxmb" ng-click="hx(v.h_id)">
+							<img ng-src="static/images/{{v.h_img}}" >
+							<a href="javascript:;"><p>{{v.h_sort}}</p></a>
+						</div>
+						<!-- <div class="b">
+							<img src="static/images/hxB.png" alt="">
+							<a href="javascript:;"  ui-sref="hxmb"><p>户型B</p></a>
+						</div>
+						<div class="c">
+							<img src="static/images/hxC.png" alt="">
+							<a href="javascript:;"  ui-sref="hxmb"><p>户型C</p></a>
+						</div> -->
+					</div>
+				</div>
+			</div>
+
+</div>

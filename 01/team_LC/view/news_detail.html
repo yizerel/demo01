@@ -1,0 +1,11 @@
+<meta charset="utf-8">
+<link rel="stylesheet" href="static/css/news_detail.css" />
+<div ng-controller="news_detail">
+	<section class="body">
+		<h1>{{news_detail.n_title}}</h1>
+		<p>{{news_detail.n_date*1000|date:'yyyy-MM-dd'}}</p>
+		<a>{{news_detail.n_intro}}</a>
+		<img src="static/images/{{news_detail.n_photo}}" ng-show="news_detail.n_photo!=''"/>
+		<p class="news">{{news_detail.n_cnt}}</p>
+	</section>
+</div>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>bee商城首页</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/comment.css">
+		<link rel="stylesheet" href="style/index.css">
+		<link rel="stylesheet" href="dist/idangerous.swiper.css">
+    </head>
+    <body>
+		<header>
+			<img src="images/logo.png" class="logo">
+			<input type="text" placeholder="输入商家、分类或商圈">
+			<img src="images/code.png" class="code" />
+			<img src="images/msg.png" class="msg" />
+		</header>
+		<!-- <section class="banner">
+			<img src="images/ad.png">
+		</section> -->
+		<style>
+			body {
+					margin: 0;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 13px;
+					line-height: 1.5;
+			}
+			.device {
+			width: 750px;
+			height: 281px;
+			/* padding: 10px 10px; */
+			border-radius: 20px;
+			/* background: #111; */
+			border: 3px solid white;
+			/* margin: 5px auto; */
+			position: relative;
+			/* box-shadow: 0px 0px 5px #000; */
+			}
+			.device .arrow-left {
+			background: url(images/left.png) no-repeat;
+			position: absolute;
+			right: 10px;
+			top: 50%;
+			margin-top: -15px;
+			width: 17px;
+			height: 30px;
+			}
+			.device .arrow-right {
+			background: url(images/right.png) no-repeat;
+			position: absolute;
+			right: 10px;
+			top: 50%;
+			margin-top: -15px;
+			width: 17px;
+			height: 30px;
+			}
+			.swiper-container {
+			height: 281px;
+			width: 750px;
+			}
+			.content-slide {
+			padding: 20px;
+			color: #fff;
+			}
+			.title {
+			font-size: 25px;
+			margin-bottom: 10px;
+			}
+			.pagination {
+			position: absolute;
+			left: 0;
+			text-align: center;
+			bottom:-20px;
+			width: 100%;
+			}
+			.swiper-pagination-switch {
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			border-radius: 10px;
+			background: #666;
+			box-shadow: 0px 1px 2px #555 inset;
+			margin: 0 3px;
+			cursor: pointer;
+			}
+			.swiper-active-switch {
+			background: #fff;
+			}
+		</style>
+		<div class="device">
+			<a class="arrow-left" href="#"></a> 
+			<a class="arrow-right" href="#"></a>
+			<div class="swiper-container">
+			  <div class="swiper-wrapper">
+				<div class="swiper-slide"> <img src="images/ad.png"> </div>
+				<div class="swiper-slide"> <img src="images/ad.png"> </div>
+				<div class="swiper-slide"> <img src="images/ad.png"> </div>
+			  </div>
+			</div>
+			<div class="pagination"></div>
+		  </div>
+		  <script src="js/jquery-1.10.1.min.js"></script>
+		  <script src="dist/idangerous.swiper.min.js"></script>
+		  <script>
+		  var mySwiper = new Swiper('.swiper-container',{
+			pagination: '.pagination',
+			loop:true,
+			grabCursor: true,
+			paginationClickable: true
+		  })
+		  $('.arrow-left').on('click', function(e){
+			e.preventDefault()
+			mySwiper.swipePrev()
+		  })
+		  $('.arrow-right').on('click', function(e){
+			e.preventDefault()
+			mySwiper.swipeNext()
+		  })
+		  </script>
+
+
+		<section class="top">
+			<ul>
+				<li><img src="images/one.png"/>
+					<p>抽奖</p>
+				</li>
+				<li>
+					<img src="images/two.png"/>
+					<p>兑换</p>
+				</li>
+				<li>
+					<img src="images/three.png"/>
+					<p>促销</p>
+					<span>hot</span>
+				</li>
+				<li>
+					<img src="images/four.png"/>
+					<p>闪送超市</p>
+				</li>
+			</ul>
+		</section>
+    	<section class="content">
+    		<ul>
+    			<li>
+    				<div class="c-left fl">
+    					<h2>Fresh奶</h2>
+    					<p>光明畅优乳杆菌<span>6</span>元/<span>2</span>瓶</p>
+    					<span class="last">更多优惠 低至5折</span>
+    				</div>
+    				<img src="images/goods01.png" alt="" class="c-right fr">
+    			<div class="circle">
+    				买1<br>赠1
+    			</div>
+    			</li>
+    			<li>
+    				<div class="c-left fl">
+    					<h2>Fresh奶</h2>
+    					<p>光明畅优乳杆菌<span>6</span>元/<span>1</span>包</p>
+    					<span class="last">更多优惠 低至5折</span>
+    				</div>
+    				<img src="images/goods02.png" alt="" class="c-right fr">
+    			</li>
+    						<li>
+    				<div class="c-left fl">
+    					<h2>Fresh奶</h2>
+    					<p>光明畅优乳杆菌<span>6</span>元/<span>2</span>瓶</p>
+    					<span class="last">更多优惠 低至5折</span>
+    				</div>
+    				<img src="images/goods01.png" alt="" class="c-right fr">
+    			<div class="circle">
+    				买1<br>赠1
+    			</div>
+    			</li>
+    			<li>
+    				<div class="c-left fl">
+    					<h2>Fresh奶</h2>
+    					<p>光明畅优乳杆菌<span>6</span>元/<span>1</span>包</p>
+    					<span class="last">更多优惠 低至5折</span>
+    				</div>
+    				<img src="images/goods02.png" alt="" class="c-right fr">
+    			</li>
+    			
+    		</ul>
+    	</section>
+    	<footer>
+<ul>
+	<li>
+		<img src="images/index.jpg" />
+	</li>
+		<li>
+		<img src="images/shop.jpg" />
+	</li>
+		<li>
+		<img src="images/mine.jpg" />
+	</li>
+		<li>
+		<img src="images/cart.jpg" />
+	</li>
+</ul>
+    	</footer>
+    
+    
+    </body>
+</html>

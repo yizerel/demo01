@@ -1,0 +1,212 @@
+.banner{
+    width:100%;
+    
+    position: relative;
+}
+.banner img{
+    width:100%;
+    height:100%;
+}
+.banner .t1{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:#fff;
+    font-size:2.5rem;
+    font-weight: bold;
+    line-height:4.25rem;
+    color:rgba(255,255,255,1);
+    opacity:1;
+}
+.banner .t2{
+    position: absolute;
+    top:57%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size:1.3333rem;
+    text-align: center;
+    font-weight:300;
+    line-height:2.25rem;
+    color:rgba(255,255,255,1);
+    opacity:1;
+}
+.md1{
+    width:100%;
+}
+.qt1{
+    width: 34.4167rem;
+    height:21.5rem;
+    float: left;
+    margin: 6.0833rem 6.5rem 0 3.4167rem;
+}
+.qt1-t{
+    width:20rem;
+    float: left;
+}
+.qt1 img{
+    width:100%;
+    height:100%
+}
+.qt1-t ul li:first-of-type{
+    font-size:1.666rem;
+    font-weight:550;
+    line-height:2.8333rem;
+    color:rgba(51,51,51,1);
+    padding-top: 11.875rem;
+}
+.qt1-t ul li:nth-child(2){
+    font-size:1.666rem;
+    font-weight:550;
+    line-height:2.8333rem;
+    color:rgba(51,51,51,1);
+}
+.qt1-t ul li:nth-of-type(3){
+    font-size:1.25rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+    margin-top: 1rem;
+}
+.qt1-t ul li:nth-child(4){
+    font-size:1.25rem;
+    line-height:2.125rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+    margin-top: 0.5rem;
+}
+.qt2-t{
+    width:31rem;
+    float: left;
+}
+.qt2-t ul li:first-child{
+    font-size:1.6667rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+    margin-left: 9.2917rem;
+    padding-top:6rem;
+	font-weight: 550;
+	padding-bottom: 1.875rem;
+}
+.qt2{
+    width: 34.4167rem;
+    height:21.5rem;
+    float: left;
+    margin:2rem 0 0 103.0008px
+}
+.qt2 img{
+    width:100%;
+    height:100%
+}
+.qt2-t ul li:nth-child(2){
+    font-size:1.25rem;
+    line-height:2.125rem;
+    color:rgba(51,51,51,1);
+    margin-left: 9.2917rem
+}
+.qt2-t ul li:nth-child(3){
+    font-size:1.25rem;
+    line-height:2.125rem;
+    color:rgba(51,51,51,1);
+    margin-left: 9.2917rem
+}
+.qt2-t ul li:nth-child(4){
+    font-size:1.25rem;
+    line-height:2.125rem;
+    color:rgba(51,51,51,1);
+    margin-left: 9.2917rem
+}
+.qt2-t ul li:nth-child(5){
+    font-size:1.25rem;
+    line-height:2.125rem;
+    color:rgba(51,51,51,1);
+    margin-left: 9.2917rem
+}
+.mid3{
+    width: 100%;
+    height:26.25rem;
+}
+.qt3-img1{
+    width:34.375rem;
+    height: 21.5rem;
+    float: left;
+    margin:4.7083rem 0 0 3.4167rem
+}
+.qt3-img1 img{
+    width: 100%;
+    height:100%
+}
+
+.qt3-t{
+    float: left;
+}
+.qt3-t ul li:first-child{
+    font-size:1.6667rem;
+    line-height:2.8333rem;
+    color:rgba(51,51,51,1);
+    margin:11.4167rem 0 2.5rem 2.7083rem;
+	font-weight: 550;
+}
+.qt3-t ul li:nth-child(2){
+    font-size:1.25rem;
+    line-height:2.125rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+    margin-left:2.5rem
+}
+.qt3-t ul li:nth-child(3){
+    font-size:1.25rem;
+    line-height:2.125rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+    margin-left:2.5rem
+}
+.qt3-t ul li:nth-child(4){
+    font-size:1.25rem;
+    line-height:2.125rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+    margin-left:2.5rem
+}
+.mid4{
+    background: url(../images/bg.png)no-repeat;
+    background-position: 100% 50%;
+    width: 100%;
+    height:31.7083rem
+}
+.qt4-img{
+    width:34.4167rem;
+    height:21.5rem;
+    float: left;
+    margin:4.5833rem 2.7083rem 4.9167rem 3.4167rem
+}
+.qt4-img img{
+    width: 100%;
+    height:100%
+}
+.qt4-t ul li:first-child{
+    font-size:1.6667rem;
+    line-height:2.8333rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+    padding-top: 11.0833rem;
+	font-weight: bold;
+}
+.qt4-t ul li:nth-child(2){
+    font-size:1.25rem;
+    line-height:2.125rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+    margin-top: 0.8333rem;
+}
+.qt4-t ul li:nth-child(3){
+    font-size:1.25rem;
+    line-height:2.125rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+}
+.qt4-t ul li:nth-child(4){
+    font-size:1.25rem;
+    line-height:2.125rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+}

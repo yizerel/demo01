@@ -1,0 +1,64 @@
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="static/css/cp_qmhy.css"/>
+<div ng-controller="cp_qmhy">
+	<section class="banner">
+				<img src="static/images/{{cp_detail_res.l_photo1}}">
+					<p class="t1">{{cp_detail_res.l_name1}}</p>
+						<div class="t2">
+						<!-- <p>逃离“北上广”的喧嚣生态园<br>
+							环绕，风光美不胜收。</p> -->
+							<p ng-bind-html="intro1"></p>
+						</div>
+			</section>
+			<section class="mid1">
+				<div class="qt1">
+					<img src="static/images/{{cp_arr[0].photo}}">
+				</div>
+				<div class="qt1-t">
+					<ul >
+						<span ng-bind-html="cp_arr[0].intro"></span>
+					</ul>
+				</div>
+			</section>
+			<div class="clear"></div>
+			<section class="mid2">
+				<div class="qt2-t">
+					<ul>
+						<!-- <li>清迈高端生活区里的花园别墅</li>
+						<li>清迈合院项目于2014年动工开建，</li>
+						<li>占地30000平方米，</li>	
+						<li>共43套带花园别墅，</li>
+						<li>于2017年全部交房入住。</li> -->
+						<span ng-bind-html="cp_arr[1].intro"></span>
+					</ul>
+				</div>
+				<div class="qt2">
+					<img src="static/images/{{cp_arr[1].photo}}">
+				</div>
+			</section>
+			<div class="clear"></div>
+			<section class="mid3">
+				<div class="qt3-img1">
+					<img src="static/images/{{cp_arr[2].photo}}">
+				</div>
+				<div class="qt3-t">
+					<ul>
+						<!-- <li>杭东区</li>
+						<li>地处清迈最大的高端生活</li>
+						<li>区：杭东区，与素贴山、</li>
+						<li>清迈高尔夫球场相邻。</li> -->
+						<span ng-bind-html="cp_arr[2].intro"></span>
+					</ul>
+				</div>
+			</section >
+			<section class="mid4">
+				<div class="qt4-img">
+					<img src="static/images/{{cp_arr[3].photo}}">
+				</div>
+				<div class="qt4-t">
+					<ul>
+						<span ng-bind-html="cp_arr[3].intro"></span>
+					</ul>
+				</div>
+			</section>
+</div>

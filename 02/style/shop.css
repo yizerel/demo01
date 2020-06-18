@@ -1,0 +1,147 @@
+.nav{
+    width:100%
+}
+.nav .nav1 ul {
+    width:176px;
+    height:1200px;
+    float:left
+}
+.nav .nav1 ul li{
+    font-size:26px;
+    color:#3c3c3c;
+    text-align:center;
+    border-top:1px solid #d4d4d4;
+    border-bottom:1px solid #d4d4d4;
+    height:93px;
+    line-height:93px
+}
+/* .nav .nav1 ul li:first-child{
+    widows: 174px;
+    height:88px;
+    background: #fff;
+    color: #fea31e;
+    border-top:1px solid #fff;
+    border-left:3px solid #fece02
+} */
+.nav .nav2 ul{
+    float:left;
+    height:1154px;
+    width:574px
+}
+.nav .nav2 ul li{
+    width:548px;
+    height:217px;
+    border-bottom:1px solid #a1a1a1;
+    display: block;
+    margin-left: 26px;
+}
+
+.nav .nav2  .top{
+    font-size:30px;
+    background-color: #f8f8f8;
+    color:#565656;
+    text-indent: 10px;
+    width:575px;
+    height:46px;
+    line-height:46px
+}
+.nav .nav2 ul li .img1{
+    float:left;
+    padding:46px 0 0 39px
+}
+.nav .nav2 ul li:last-child{
+    margin-bottom: 140px;
+    height:210px
+}
+.nav .nav2 ul li .introduction{
+    float:right;
+}
+.nav .nav2 ul li .introduction .choose-one{
+    width:50px;
+    height:36px;
+    border-radius: 10px;
+    border:solid 1px #ff4100;
+    background-color:#fff;
+    color:#ff4100;
+    font-size:23px;
+    display: inline-block;
+    text-align:center;
+    line-height: 36px;
+    margin:16px 0 11px 0
+}
+.nav .nav2 ul li .introduction .choose{
+    width:50px;
+    height:36px;
+    border-radius: 10px;
+    border:solid 1px #ff4100;
+    background-color:#fff;
+    color:#ff4100;
+    font-size:23px;
+    display: inline-block;
+    text-align:center;
+    line-height: 36px;
+    margin:30px 0 11px 0
+}
+.nav .nav2 ul li .introduction .feng{
+    font-size:28px;
+    color:#404040;
+    margin:0 32px 0 8px
+}
+.nav .nav2 ul li .introduction .promotion{
+    width:98px;
+    height:41px;
+    border-radius: 10px;
+    border:solid 1px #ff4100;
+    background-color:#f85252;
+    color:#fff;
+    font-size:22px;
+    line-height: 41px;
+    text-align: center;
+}
+.nav .nav2 ul li .introduction .number{
+    font-size:28px;
+    color:#929091
+}
+.nav .nav2 ul li .introduction .price{
+    font-size:28px;
+    color:#ff4100;
+    margin-top:10px
+}
+.nav .nav2 ul li .introduction a{
+    width:55px;
+    height:55px;
+    border:1px solid #e2e2e2;
+    border-radius: 50%;
+    color:#ff4400;
+    font-size:50px;
+    text-align: center;
+    line-height: 50px;
+    float:right;
+    margin-right: 13px;
+}
+footer{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:750px;
+	height:110px;
+	border-top:2px solid #c3c3c3;
+    background:#fff;
+   
+}
+footer ul li{
+	float:left;
+    margin-left:95px;
+}
+	footer ul li:first-child{
+		margin-left:0
+}
+
+
+.nav .nav1 ul li.active{
+    background-color:#fff;
+    color:#fece02
+}
+
+.nav2 .show{display:block;}
+.nav2 ul{display:none;}

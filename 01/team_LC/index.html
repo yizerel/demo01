@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="static/css/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="static/css/common.css"/>
+        <link rel="stylesheet" type="text/css" href="static/css/index.css">
+		<script src="static/js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<!-- <script src="static/js/common.js" type="text/javascript" charset="utf-8"></script> -->
+		<script src="static/js/angular.min.js"></script>
+		<script src="static/js/angular-ui-router.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&ak=DmvaTbVhDI5FzcLmG8zcZQdPllicdMXQ"></script>
+	</head>
+	<body style="width:100%;" ng-app="myApp" ng-controller="main" >
+        <div class="header_top" style="width: 100%;">
+            <img src="static/images/index_header.jpg" alt="">
+            <div class="header_top_title">自然人文 智慧住宅</div>
+            <div class="header_top_content">从泰国出发<br>找寻理想自我的生活节奏</div>
+            <a href="javascript:;" ng-click="gun"><div class="header_top_btn" ><span>开始旅程</span></div></a>
+			<script>
+				$(function(){
+				
+				$('.header_top_btn').click(function(){
+					
+					$('html,body').animate({scrollTop:$('.header_top')[0].clientHeight },800);
+					setTimeout(function(){
+						$('.header_top').css('display',"none");
+					},1000)
+				})
+				
+					var arrq=["#/index","#/news","#/alhz","#/about"];
+					var qq=location.href;
+					var suoyin=qq.indexOf('#/');
+					var zhen=qq.substr(suoyin);
+					if(zhen==arrq[0]){
+						// $scope.show=true;
+						$('.header_top').css('display',"block");
+					}else{
+						$('.header_top').css('display',"none");
+					}
+					
+					
+				})
+				
+				
+			</script>
+        </div>
+		<header>
+			<div class="w1122">
+				<a href="" class="fl img">
+					<img src="static/images/logo.png" alt="" class="logo fl">
+					<img src="static/images/logo_zi.png" alt="" class="logo_zi fl">
+				</a>
+				<ul class="fl left nav">
+					<li  ui-sref="{{v.sref}}"  ng-repeat="v in nav" ng-click="nav_click($index)" ng-mouseenter="enter($index)" ng-mouseleave="leave($index)"><a href="javascript:;">{{v.name}}</a></li>
+					<!-- <li ><a href="javascript:;" ui-sref="nav_sref[1].sref">{{nav[1].name}}</a></li>
+					<li><a href="javascript:;" ui-sref="nav_sref[2].sref">{{nav[2].name}}</a></li>
+					<li><a href="javascript:;" ui-sref="nav_sref[3].sref">{{nav[3].name}}</a></li> -->
+				</ul>
+			
+				<div class="fr right">
+					<img src="static/images/search.png"  class="fl">
+					<span></span>
+					<ul class="fl">
+						<li><a href="#">TH</a></li>
+						<li><a href="#">EN</a></li>
+						<li><a href="#">CN</a></li>
+					</ul>
+				</div>
+				
+				<div class="nav_er">
+					<ul>
+						<li ng-repeat="v in nav_two"><a href=""  ng-click="cp_id(v.l_id)">{{v.l_name1}}</a></li>
+						<!-- <li><a href="" ui-sref="cp_qmhy">梅花鹿度假酒店</a></li>
+						<li><a href="" ui-sref="cp_qmhy">清迈合院</a></li>
+						<li><a href="" ui-sref="cp_mhl">梅花鹿度假酒店</a></li>
+						 -->
+						<div class="clear"></div>
+					</ul>				
+				</div>
+				<div class="clear"></div>
+			</div>
+		</header>
+		<div class="min-h" ui-view>
+					
+		</div>
+
+		<footer>
+			<p class="title">联系方式</p>
+			<p>电话：0982970678</p>
+			<p>联系地址：191 LE Chamonix M.13 Tambon Pa Daet</p>
+			<p>Amphoe Mueang Chiang Mai</p>
+			<ul>
+				<li><a href="#"><img src="static/images/weibo.png" class="weibo"></a></li>
+				<li><a href="#"><img src="static/images/facebook.png"  class="facebook"></a></li>
+				<li><a href="#"><img src="static/images/weixin.png" class="weixin" ></a></li>
+				<li><a href="#"><img src="static/images/ins.png"  class="ins"></a></li>
+				<div class="clear"></div>
+			</ul>
+			
+			<p>Copyright © 2019.Company name All rights reserved.</p>
+		</footer>
+<script>
+	var app=angular.module('myApp',['ui.router']);
+	app.config(function($stateProvider,$urlRouterProvider){
+		$urlRouterProvider.when('',"index");
+		$stateProvider
+		.state('index',{
+			url:"/index",
+			templateUrl:"view/index.html",
+			controller:"index",
+		})
+		.state("news",{
+			url:"/news",
+			templateUrl:"view/news.html",
+			controller:"news",
+		})
+		.state('news_detail',{
+			url:"/news_detail",
+			templateUrl:"view/news_detail.html",
+			controller:"news_detail",
+			// params:{"news_di",{}},
+			params:{'news_id':{}}
+		})
+		.state('about',{
+			url:"/about",
+			templateUrl:"view/about.html",
+			controller:"about",
+		})
+		.state('alhz',{
+			url:"/alhz",
+			templateUrl:"view/alhz.html",
+			controller:"alhz",
+		})
+		.state('hxmb',{
+			url:"/alhz/hxmb",
+			templateUrl:"view/hxmb.html",
+			controller:"hxmb",
+			params:{'h_id':{}}
+		})
+		.state('peitao',{
+			url:"/alhz/peitao",
+			templateUrl:"view/peitao.html",
+			controller:"peitao",
+			params:{'p_id':null}
+		})
+		.state('cp_mhl',{
+			url:"/index/cp_mhl",
+			templateUrl:"view/cp_mhl.html",
+			controller:"cp_mhl",
+			params:{'cp_id':{}}
+		})
+		.state('cp_qmhy',{
+			url:"/index/cp_qmhy",
+			templateUrl:"view/cp_qmhy.html",
+			controller:"cp_qmhy",
+			params:{'cp_id':{}}
+		})
+	})
+	app.controller('main',function($scope,$http,$state,$sce){
+		//新闻列表
+		$http.post('api/index.php')
+		.success(function(z){
+			console.log(z);
+			$scope.nav=z.nav;
+			$scope.nav_two=z.nav_two;
+			$scope.news=z.news;
+			$scope.about=z.about;
+			//关于我们banner字体
+			$scope.about_arr1=[{
+				"cnt1":$sce.trustAsHtml(z.about[0].a_cnt1),
+				cnt2:$sce.trustAsHtml(z.about[0].a_cnt2),
+				cnt3:$sce.trustAsHtml(z.about[0].a_cnt3),
+			}];
+			$scope.hxmb=z.hxmb;
+			$scope.peitao=z.peitao;
+			console.log($scope.peitao)
+		})
+		$scope.cp_id=function(z){
+			if(z==1||z==2){
+				$state.go('cp_qmhy',{'cp_id':z});
+			}else if(z==3){
+				$state.go('cp_mhl',{'cp_id':z});
+			}
+		}
+		
+		$scope.enter=function(i){
+			if(i==0){
+				$('header .nav_er').stop().fadeIn();
+			}
+		}
+		$scope.leave=function(i){
+			
+			$('header .nav_er').mouseenter(function(){
+				$('header .nav_er').stop().fadeIn();
+				if(i==0){
+					$('header .left li').eq(i).find('a').css('color','#B2856D');
+				}
+			})
+			$('header .nav_er').mouseleave(function(){
+				$('header .nav_er').stop().fadeOut();
+				$('header .left li').eq(i).find('a').css('color','#606060');
+			})
+			$('header .nav_er').stop().fadeOut();
+			$scope.nav_click=function(index){
+				$('header .left li').eq(index).addClass('active').siblings().removeClass('active');
+			}
+		}
+		
+	})
+	app.controller('index',function($scope){
+		
+	})
+	app.controller('news',function($scope,$http,$state){
+		$scope.news_id=function(news_id){
+			$state.go('news_detail',{'news_id':news_id});
+		}	
+		
+	})
+	app.controller('news_detail',function($scope,$stateParams,$http){
+		var news_id=$stateParams.news_id;
+		$http.post('api/index.php',{news_id:news_id})
+		.success(function(z){
+			// console.log(z);
+			$scope.news_detail=z.news_detail;
+		})
+	})
+	app.controller('about',function($scope){
+		
+	})
+	app.controller('alhz',function($scope,$state){
+		$scope.hx=function(z){
+			// console.log(z);
+			$state.go('hxmb',{'h_id':z});
+		}
+		$scope.peitao_fun=function(z){
+			$state.go('peitao',{'p_id':z});
+		}
+	})
+	app.controller('hxmb',function($scope,$stateParams,$http){
+		if($stateParams.h_id.length==undefined){
+			var h_id=1;
+		}else{
+			var h_id=$stateParams.h_id;
+		}
+		$http.post('api/index.php',{h_id:h_id})
+		.success(function(z){
+			// console.log(z);
+			$scope.hx_detail=z.hx_detail_res;
+		})
+	})
+	app.controller('peitao',function($scope,$stateParams,$http,$sce){
+		console.log($stateParams.p_id);
+		var p_id=$stateParams.p_id;
+		$http.post('api/index.php',{p_id,p_id})
+		.success(function(z){
+			console.log(z);
+			$scope.pei_detail=z.peitao_detail_res;
+			$scope.pei_cnt=$sce.trustAsHtml(z.peitao_detail_res.p_cnt)
+		})
+	})
+	app.controller('cp_mhl',function($scope,$stateParams,$http,$sce){
+		if($stateParams.cp_id.length==undefined){
+			var cp_id=1;
+		}else{
+			var cp_id=$stateParams.cp_id;
+		}
+		console.log(cp_id);
+		$http.post('api/index.php',{cp_id:cp_id})
+		.success(function(z){
+			console.log(z);
+			$scope.cp_detail_res=z.cp_detail_res;
+			$scope.intro1=$sce.trustAsHtml(z.cp_detail_res.l_intro1);
+			$scope.cp_arr=[{
+				"intro":$sce.trustAsHtml(z.cp_detail_res.l_intro2),
+				"photo":z.cp_detail_res.l_photo2
+			},
+			{
+				"intro":$sce.trustAsHtml(z.cp_detail_res.l_intro3),
+				"photo":z.cp_detail_res.l_photo3
+			},
+			{
+				"intro":$sce.trustAsHtml(z.cp_detail_res.l_intro4),
+				"photo":z.cp_detail_res.l_photo4
+			},
+			{
+				"intro":$sce.trustAsHtml(z.cp_detail_res.l_intro5),
+				"photo":z.cp_detail_res.l_photo5
+			}
+			]
+		})
+	})
+	app.controller('cp_qmhy',function($scope,$stateParams,$http,$sce){
+		if($stateParams.cp_id.length==undefined){
+			var cp_id=1;
+		}else{
+			var cp_id=$stateParams.cp_id;
+		}
+		$http.post('api/index.php',{cp_id:cp_id})
+		.success(function(z){
+			$scope.cp_detail_res=z.cp_detail_res;
+			$scope.intro1=$sce.trustAsHtml(z.cp_detail_res.l_intro1);
+			$scope.cp_arr=[{
+				"intro":$sce.trustAsHtml(z.cp_detail_res.l_intro2),
+				"photo":z.cp_detail_res.l_photo2
+			},
+			{
+				"intro":$sce.trustAsHtml(z.cp_detail_res.l_intro3),
+				"photo":z.cp_detail_res.l_photo3
+			},
+			{
+				"intro":$sce.trustAsHtml(z.cp_detail_res.l_intro4),
+				"photo":z.cp_detail_res.l_photo4
+			},
+			{
+				"intro":$sce.trustAsHtml(z.cp_detail_res.l_intro5),
+				"photo":z.cp_detail_res.l_photo5
+			}
+			]
+			//console.log($scope.cp_arr);
+		})
+	})
+</script>
+	</body>
+	
+</html>

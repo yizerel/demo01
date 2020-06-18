@@ -1,0 +1,63 @@
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="static/css/cp_mhl.css"/>
+<div ng-controller="cp_mhl">
+	<section class="banner">
+				<img src="static/images/{{cp_detail_res.l_photo1}}">
+					<p class="t1">{{cp_detail_res.l_name1}}</p>
+						<div class="t2">
+						<p ng-bind-html="intro1"></p>
+						</div>
+			</section>
+			<section class="m1">
+				<div class="lt1">
+					<ul>
+							<span ng-bind-html="cp_arr[0].intro"></span>
+					</ul>
+				</div>
+				<div class="lt1-img">
+					<img src="static/images/{{cp_arr[0].photo}}">
+				</div>
+			<div class="clear"></div>
+		</section>
+		<section class="m2">
+			<div class="lt2">
+				<img src="static/images/{{cp_arr[1].photo}}">
+			</div>
+			<div class="lt2-t">
+				<ul>
+					<span ng-bind-html="cp_arr[1].intro"></span>
+				</ul>
+			</div>
+		</section>
+			<div class="clear"></div>
+			<section class="m3">
+				<div class="lt3">
+					<ul>
+						<span ng-bind-html="cp_arr[2].intro"></span>						
+					</ul>
+				</div>
+				<div class="lt3-img">
+					<img src="static/images/{{cp_arr[2].photo}}">
+				</div>
+			<div class="clear"></div>
+		</section>
+		<section class="m4">
+			<div class="hotel">
+			<ul>
+				<span ng-bind-html="cp_arr[3].intro"></span>
+			</ul>
+			</div>
+			<div class="hotel-c">
+					<ul>
+						<p>开业以来，我们很荣幸的在携程网站上获得“清迈豪华型酒店第3名”，“携程特牌酒店”及5.0分“超棒”好评。</p>
+					</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="lt4-img">
+				<img src="static/images/{{cp_arr[3].photo}}">
+			</div>
+			<div class="lt4-img2">
+				<img src="static/images/hotel-right.png">
+			</div>
+		</section>
+</div>

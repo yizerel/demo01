@@ -1,0 +1,344 @@
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="static/css/peitao.css"/>
+<script type="text/javascript">
+	$(function(){
+		window.onload=function(){
+			$(".img_box").css('height',$('.img_box .img_ul li img')[0].clientHeight);
+			
+		}
+		window.onresize = () =>{//监听窗口大小变化
+			$(".img_box").css('height',$('.img_box .img_ul li img')[0].clientHeight);
+		}
+		console.log();
+		$(".T").eq(1).find('li').eq(0).click(function(){
+			$('html,body').animate({scrollTop: 0},500);
+		})
+		$(".T").eq(2).find('li').eq(0).click(function(){
+			$('html,body').animate({scrollTop: 0},500);
+		})
+		$(".T").eq(3).find('li').eq(0).click(function(){
+			$('html,body').animate({scrollTop: 0},500);
+		})
+	})
+	
+	
+</script>
+<script type="text/javascript" src="static/js/peitao.js"></script>
+
+<div ng-controller="alhz">
+	<section class="big">
+				<div class="top">
+					<p class="title">{{pei_detail.p_name}}</p>
+					<span class="heng"></span>
+					<div class="intro" ng-bind-html="pei_cnt">
+						<<!-- p>清迈，世界闻名的度假圣地</p>
+						<p>——清迈的时光很慢，快乐的成本很低</p> -->
+					</div>
+					<div class="w1688 big_img">
+						<ul class="T">
+							<li class="active"><a href="">效果图+户型 -</a></li>
+							<li><a href="">介绍 -</a></li>
+							<li><a href="">配套服务 -</a></li>
+							<li><a href="">运营招商信息 -</a></li>
+						</ul>
+						<div class="img_box">
+						<ul class="img_ul">
+							<li>
+								<a href="">
+									<img src="static/images/peitao/banner1.jpg" alt="">
+									<span>逃离“北上广”的喧嚣生态园</br>
+									环绕，风光美不胜收。</span>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="static/images/peitao/banner1.jpg" alt="">
+									<span>逃离“北上广”的喧嚣生态园</br>
+									环绕，风光美不胜收。</span>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="static/images/peitao/banner1.jpg" alt="">
+									<span>逃离“北上广”的喧嚣生态园</br>
+									环绕，风光美不胜收。</span>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="static/images/peitao/banner1.jpg" alt="">
+									<span>逃离“北上广”的喧嚣生态园</br>
+									环绕，风光美不胜收。</span>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="static/images/peitao/banner1.jpg" alt="">
+									<span>逃离“北上广”的喧嚣生态园</br>
+									环绕，风光美不胜收。</span>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="static/images/peitao/banner1.jpg" alt="">
+									<span>逃离“北上广”的喧嚣生态园</br>
+									环绕，风光美不胜收。</span>
+								</a>
+							</li>
+							
+						</ul><div class="clear"></div>
+						</div>
+						<ul class="redio">
+							<li class="active"></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<script>
+							// angular.element('.img_box').ready(function(){
+							// 	$(".img_box").css('height',$('.img_box .img_ul li img')[0].clientHeight);
+							// });
+								
+							
+							
+						</script>
+						<div class="sort">
+							<ul class="sort_ul">
+								<li>
+									<p>户型A</p>
+									<p>29.8  sq.m.</p>
+								</li>
+								<li>							
+									<p>户型B</p>
+									<p>34.3  sq.m.</p>
+								</li>
+								<li>
+									<p>户型C</p>
+									<p>49.1  sq.m.</p>
+								</li>
+							</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+					
+				</div>
+				<div class="middle">
+					<div class="w1688">
+						<ul class="T T2">
+							<li><a href="">效果图+户型 -</a></li>
+							<li class="active"><a href="">介绍 -</a></li>
+							<li><a href="">配套服务 -</a></li>
+							<li><a href="">运营招商信息 -</a></li>
+						</ul>
+						<div class="info_box">
+							<h3>3KM</h3>
+							<h4>黄金中心地段的静谧之地</h4>
+							<div class="intro">
+								夏蒙尼小镇位于清迈市中心，地处黄金地段，荟聚国际品牌，泰国特色商品，走路就能到达周末夜市，吃喝玩乐购一站式消费体验。</br>
+								电话：XXXXX</br>
+								地址：191 LE ChaMONIx M.13</br> Tambon Pa Daet amphoe Mueang</br> Chiang Mai
+							</div>
+						</div>
+						<div class="info_box2">
+							精心设计——与自然共生的雨林</br>水系旅居公寓
+						</div>
+						<div class="map_box">
+							<!-- <img src="static/images/peitao/img.png" alt=""> -->
+							<div class="module-8-bottom">
+								<div id="XSDFXPage" class="XSDFXPage">
+			
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<div class="jingguan fl">
+						<img src="static/images/peitao/jingguan.png" alt="">
+					</div>
+					<div class="right fl">
+						<h2>雨林水系花园景观</br>
+						内外兼享全系配套资源</h2>
+						<ul>
+							<li>
+								<div class="fl">
+									<p class="t">2000 ㎡ +</p>
+									<p class="cnt">环绕式水系泳池</p>
+								</div>
+								<div class="clear"></div>
+							</li>
+							<li>
+								<div class="fl">
+									<p class="t">3000 ㎡ +</p>
+									<p class="cnt">社区共享空间</p>
+								</div>
+								<div class="clear"></div>
+							</li>
+							<li>
+								<div class="fl">
+									<p class="t">5000 ㎡ +</p>
+									<p class="cnt">热带风情绿化景观</br>
+										面向小区中庭的户型可直达泳池入户</p>
+								</div>
+								<div class="clear"></div>
+							</li>
+							<li class="none_mar">
+								<div class="fl">
+									<p class="t">6000 ㎡ +</p>
+									<p class="cnt">可用于度假旅居养老项目的空间场所</br>
+									丰富的社区文化与业主住客的社群活动</p>
+								</div>
+								<div class="clear"></div>
+							</li>
+						</ul>
+					</div><div class="clear"></div>
+				</div>
+				<!-- 绿色下面 -->
+				
+				<div class="middle2">
+					<div class="w1688">
+						<div class="first">
+							<div class="fl left">
+								<p class="point">70%</p>
+								<p class="theme">地处热带，气候宜人，70% 以上的森林覆盖率</p>
+								<p class="cnt">清迈全年年均温度 22℃左右，是东南亚著名的
+								避暑旅游胜地，被美国全球著名旅游杂志《漫游》
+								评为最佳旅游城市亚洲第一。</p>
+							</div>
+							<div class="fl right">
+								<img src="static/images/peitao/middle_1.png" alt="">
+							</div>
+							<div class="clear"></div>
+						</div>
+						<div class="second">
+							<div class="fl se_left">
+								<img src="static/images/peitao/middle_2.png" alt="">
+								<img src="static/images/peitao/middle_3.png" alt="">
+							</div>
+							<div class="fl left">
+								<p class="point">70%</p>
+								<p class="theme">地处热带，气候宜人，70% 以上的森林覆盖率</p>
+								<p class="cnt">清迈全年年均温度 22℃左右，是东南亚著名的
+								避暑旅游胜地，被美国全球著名旅游杂志《漫游》
+								评为最佳旅游城市亚洲第一。</p>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<!-- 配套服务 -->
+						<div class="peitao">
+							<!-- <div class="w1688"> -->
+								<ul class="T T3">
+									<li><a href="">效果图+户型 -</a></li>
+									<li class="active"><a href="">介绍 -</a></li>
+									<li><a href="">配套服务 -</a></li>
+									<li><a href="">运营招商信息 -</a></li>
+								</ul>
+							
+							<h2>配套服务</h2>
+							<div>
+								<div class="fl peitao_l">
+									<img src="static/images/peitao/peitao1.png" alt="">
+									<img src="static/images/peitao/peitao2.png" alt="">
+								</div>
+								<div class="fl peitao_r">
+									<p class="health">Health & Relax</p>
+									<p class="theme">专业的康养机构提供定制尊享服务</p>
+									<p class="cnt">社区重视每一位业主的身心需求</br>
+										这里不仅有沁人心脾的森林水系环境</br>
+										还专业入驻了康养机构、养生馆</br>
+										和健康检测中心</br>
+										旅居度假主题酒店配备有全球欢迎</br>
+										的泰式按摩和 SPA 养生馆</br>
+										在享受悠然时光的同时提升健康状况</br>
+										让轻松与写意渗透到每一丝毛细血管里</p>
+									
+									<div class="fl yang_cnt">
+										<h1>养老旅居</h1>
+										<h4>第三方运营</h4>
+										<p>老年学堂</br>
+											娱乐中心</br>
+											康养类旅游</br>
+											中医服务</br>
+											养生集膳食营养服务</p>
+									</div>
+									<div class="fl yang_cnt two">
+										<h4>入驻机构</h4>
+										<p>健康管理康养中心</br>
+											旅居养老泰国请外站运营机构</p>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="dujia">
+								<div class="fl one"><img src="static/images/peitao/peitao3.png" alt=""></div>
+								<div class="fl two"><img src="static/images/peitao/peitao4.png" alt=""></div>
+								<div class="fr three">
+									<p class="theme">度假旅居</p>
+									<p class="cnt">儿童俱乐部</br>
+										娱乐中心</br>
+										公益活动中心</br>
+										户外活动俱乐部</p>
+									
+									<p class="hui">Life circle</p>
+									<p class="cnt cnt2">完善的共享设施和丰富的社群文化</p>
+									<p class="cnt3">充分考虑社区生活圈的完整体验<br>
+										专业第三方设施配套入驻，全方位社区配套服务升级</br>
+										为业主营造共享社群，提供综合性公共交流平台</p>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="peitao5 ">
+								<img src="static/images/peitao/peitao5.jpg" alt="">
+								<div class="fl ONE">
+									<span class="qian">Home life</span><span class="hei">人性化系统 一键管理居家生活</span>
+									<p>社区应用智慧社区综合管理解决方案，集智能监控，视频门禁，楼宇对讲，云停车场、智能家居，防盗报警等子系统于一体。通过可视化地图，层级式管理，立体式防范提供互联互控，统一管理的社区综合管理解决方案。</p>
+								</div>
+								<div class="fr TWO">
+									<span class="huang">CLUB HOUSE</span><br>
+									<span class="cnt5">健身房    空中花园<br>
+									环岛泳池    共享客厅（公共办公会客）<br>
+									共享餐厅（业主食堂、预定私享业主每日餐）</span>
+								</div>						<div class="clear"></div>
+							</div>
+							
+							<div class="clear"></div>
+							<!-- </div> -->
+						</div>		
+					</div>
+				</div>
+				<div class="bottom">
+					<div class="w1688">
+						<ul class="T T3">
+							<li><a href="">效果图+户型 -</a></li>
+							<li><a href="">介绍 -</a></li>
+							<li><a href="">配套服务 -</a></li>
+							<li class="active"><a href="">运营招商信息 -</a></li>
+						</ul>
+					</div>
+					
+					<div class="fl left">
+						<h2>运营招商</h2>
+						<div class="fl one">
+							中文服务    生鲜市场<br>
+							汽车租赁及通勤    SPA及美容<br>
+							中餐厅（1、2家）<br>
+							24小时便利店    洗衣店<br>
+						</div>
+						<div class="fl two">
+							电话：XXXXXXXXXX<br>
+							电话：XXXXXXXXXX<br>
+							电话：XXXXXXXXXX<br>
+							电话：XXXXXXXXXX
+						</div>
+						
+						<div class="clear wecome">欢迎你加入我们的大家庭！</div>
+					</div>
+					<div class="fr right">
+						<img src="static/images/peitao/zhaoshang.png" >
+					</div>
+					<div class="clear"></div>
+				</div>
+			</section>
+</div>
+<script src="static/js/map.js" type="text/javascript" charset="utf-8"></script>

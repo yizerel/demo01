@@ -1,0 +1,247 @@
+.content{
+    width: 100%;
+    height: 94.2rem;
+    background-color: #f8f8f8;
+	position: relative;
+}
+.content h1{
+    height:2.5rem;
+    font-size:2.5rem;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    line-height:4.25rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+
+    padding-top: 3.16rem;
+    /* padding-left: 21.08rem; */
+	text-align: center;
+}
+.content .xian{
+    width:5rem;
+    height:1px;
+    background:rgba(178,133,109,1);
+    opacity:1;
+
+    margin: 2.04rem auto 0;
+    /* margin-left: 32.45rem; */
+	
+}
+.content .z{
+    width: 100%;
+    height: 51.16rem;
+}
+.content .z .zleft{
+    width: 37.46%;
+    height: 40.66rem;
+    margin-top: 5.96rem;
+    padding-left: 10.2%;
+}
+.content .z .zright{
+    float: right;
+    width: 52.34%;
+    height: 100%;
+}
+.content .z .zright .zf-bg{
+    float: right;
+    width: 43.26%;
+    height: 24.15rem;
+    margin-top: 1.33rem;
+}
+
+.content .z .zright .zrli{
+    position: absolute;
+    top: 17.56rem;
+    left: 58.91%;
+    z-index: 99;
+}
+.content .z .zright .zrt{
+    width:13.75rem;
+    height:4rem;
+    background:rgba(178,133,109,1);
+    opacity:1;
+    text-align: center;
+}
+.content .z .zright .span{
+    font-size:1.5rem;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    line-height:4rem;
+    color:rgba(255,255,255,1);
+    letter-spacing:0.08rem;
+    opacity:1;
+}
+.content .z .zright .p1{
+    font-size:1.43rem;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    line-height:2.5rem;
+    color:rgba(0,70,62,1);
+    opacity:1;
+
+    margin-top: 1.25rem;
+}
+.content .z .zright .p2{
+    font-size:2rem;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    line-height:2.5rem;
+    color:rgba(0,70,62,1);
+    opacity:1;
+}
+.content .z .zright .p3{
+    width: 12.58rem;
+    font-size:1rem;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    line-height:1.84rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+
+    margin-top: 1rem;
+}
+.content .z .zright .p4{
+    width: 18.83rem;
+    font-size:1.17rem;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    line-height:1.67rem;
+    color:rgba(51,51,51,1);
+    opacity:1;
+
+    margin-top: 16.54rem;
+}
+.content .z .zright .p4 span{
+    opacity: 0;
+}
+
+.z .zright .zrdi{
+    padding-top: 2.33rem;
+}
+.z .zright .shan{
+    width: 2.31rem;
+    height: 1.45rem;
+}
+.z .zright .shu{
+    width: 2.31rem;
+    height: 1.45rem;
+    padding-left: 3.59rem;
+}
+.z .zright .feng{
+    width: 2.31rem;
+    height: 1.45rem;
+    padding-left: 3.59rem;
+}
+.z .zright .zrdi span{
+    width:1.16rem;
+    height:28px;
+    font-size:28px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    line-height:40px;
+    color:rgba(51,51,51,1);
+    opacity:1;
+}
+
+.z .zright .zrd .zrds{
+    /* width:9.375rem; */
+    width: 14.28%;
+    height:4.125rem;
+    background:rgba(178,133,109,1);
+    opacity:1;
+    position: absolute;
+    top: 35.16rem;
+    left: 57.4%;
+    z-index: 899;
+}
+.z .zright .zrd img{
+    width: 27.84%;
+    height:10.58rem;
+    border:1px solid rgba(112,112,112,1);
+    background:linear-gradient(360deg,rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+    opacity:1;
+    position: absolute;
+    top: 36.16rem;
+    left: 58.91%;
+    z-index: 900;
+}
+.z .zright .zrd .zrdx{
+    /* width:9.375rem; */
+    width: 14.28%;
+    height:4.125rem;
+    background:rgba(178,133,109,1);
+    opacity:1;
+    position: absolute;
+    top: 43.61rem;
+    left: 74.08%;
+    z-index: 899;
+}
+.z .zright .zrd p{
+    font-size:1.35rem;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    line-height:2.5rem;
+    color:rgba(255,255,255,1);
+    opacity:1;
+    position: absolute;
+    top: 40.16rem;
+    left: 68.74%;
+    z-index: 990;
+}
+
+.content .x{
+    width: 90%;
+    height: 30.02rem;
+    margin: auto 5%;
+    position: relative;
+	overflow: hidden;
+}
+.content .x .list_box{
+	position: absolute;
+	left: -100%;
+	width: 800%;
+	height: 100%;
+}
+.content .x .list{
+	float: left;
+	width: 12.5%;
+	height: 100%;
+	position: relative;
+}
+.content .x .ximg{
+    width:100%;
+	height:100%;
+}
+.content .x .xwz{
+    position: absolute;
+    top: 2.375rem;
+    left: 9.33rem;
+	z-index: 5;
+}
+.content .x .xwz p{
+    font-size:1.33rem;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    line-height:2.25rem;
+    color:rgba(255,255,255,1);
+    opacity:1;
+}
+.content .x ul{
+    position: absolute;
+    bottom: 1.70rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.content .x  ul li{
+    width:0.83rem;
+    height:0.83rem;
+    background:rgba(255,255,255,1);
+    border-radius:50%;
+    opacity:0.5;
+    float: left;
+    margin-left: 0.83rem;
+}
+.content .x ul li.active{
+    box-shadow:0px 3px 6px rgba(0,0,0,0.16);
+    opacity:1;
+}

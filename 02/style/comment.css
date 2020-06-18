@@ -1,0 +1,35 @@
+/* 公共样式 */
+
+header{
+	width:750px;
+	height:103px;
+	background-color:#fece02
+}
+header .logo{
+	margin:22px 0 0 36px;
+	float: left
+}
+header input{
+	float:left;
+	width:429px;
+	height:70px;
+	line-height: 70px;
+	font-size: 30px;
+	border-radius:30px;
+	border:none;
+	margin: 17px 0 0 48px;
+	background:rgba(255,255,255,0.5) url('../images/search.png') no-repeat 22px 19px;
+	text-indent: 84px;
+	color:#666;
+}
+header input::placeholder{
+	color:#fff5c9
+}
+header .code{
+	float: left;
+	margin:30px 0 0 28px
+}
+header .msg{
+	float:left;
+	margin:30px 0 0 46px
+}

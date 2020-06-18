@@ -1,0 +1,115 @@
+
+header{
+    background-color:#fefefe;
+    width:750px;
+    height:103px;
+    border-bottom:1px solid #d9d9d9
+}
+header .title{
+    color:#000;
+    font-size:32px;
+    text-align: center;
+    line-height:103px
+}
+header img{
+    float:right;
+    margin:17px 23px 0 0
+}
+header a{
+    color:#fd540e;
+    font-size:50px;
+    float:left;
+    margin:0 0 0 39px
+}
+.noodles{
+    width:100%;
+    margin-bottom:13px
+}
+.noodles img{
+    width:100%;
+    border-bottom:1px solid #d9d9d9;
+}
+.noodles .content{
+    border-bottom:1px solid #d9d9d9;
+}
+.noodles .content .XO{
+    font-size:37px;
+    color:#000;
+    margin:21px 0 0 32px
+}
+.noodles .content .price{
+    font-size:42px;
+    color:#e8470e;
+    margin:43px 0 0 32px
+  
+}
+.noodles .content .price-two{
+    font-size:36px;
+    color:#cecece;
+    text-decoration-line: line-through
+}
+.noodles .content-2{
+    height: 76px;
+    border-bottom:1px solid #d9d9d9;
+}
+.noodles .content-2 .kind{
+    font-size:27px;
+    color:#9e9e9e;
+    letter-spacing: 50px;
+    margin-left:32px;
+    line-height:76px;
+}
+.noodles .content-2 .daily{
+    color:#000;
+    font-size:24px;
+}
+.noodles .content-2 .kind-2{
+    font-size:27px;
+    color:#9e9e9e;
+    margin-left:32px;
+    line-height:76px;
+}
+.noodles .content-2 .number{
+    color:#000;
+    font-size:24px;
+    margin-left:48px
+}
+.feng img{
+    width:100%;
+    
+}
+footer{
+    height:96px;
+    width:100%;
+    position: relative;
+    border-top:2px solid #cecccc;
+    margin-top:10px
+}
+
+footer .bottom .shop{
+    font-size:30px;
+    color:#fea31e;
+    line-height: 96px;
+    margin-left:32px
+}
+footer .img1{
+    position: absolute;
+    bottom:18px;
+    left:197px
+
+}
+footer .img1-1{
+    position: absolute;
+    bottom:18px;
+    left:314px
+}
+footer .img2{
+   position: absolute;
+   bottom:0;
+   right:0
+}
+footer .zero{
+    font-size:36px;
+    color:#727272;
+    margin-left:95px
+}
