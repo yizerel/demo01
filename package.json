@@ -4,7 +4,8 @@
   "description": "a project file",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
