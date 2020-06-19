@@ -1,0 +1,19 @@
+{
+  "name": "push",
+  "version": "1.0.0",
+  "description": "a project file",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yizerel/demo01.git"
+  },
+  "author": "zs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yizerel/demo01/issues"
+  },
+  "homepage": "https://github.com/yizerel/demo01#readme"
+}
